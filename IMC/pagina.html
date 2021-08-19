@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>IMC</title>
+    </head>
+    <body>
+        <section>
+            <form></form>
+            <h1>Calculadora IMC</h1>
+            <div class="row">
+                <p>Idade</p>
+                <br>
+                <input type="text" autocomplete="off" class="input-decor" id="age" required>
+                <!-- required quer dizer que o campo é obrigatório -->
+            </div>
+            <h3>Sexo</h3>
+            <div class="row">
+                <input type="radio" autocomplete="off" name="radio" id="female" class="checked"><p>Feminino</p>
+                <!--- O argumento autocomplete limpa o campo cada vez que atualizar a página -->
+                <br>
+                <input type="radio" autocomplete="off" name="radio" id="male" class="check"><p>Masculino</p>
+            </div>
+            <h3>Altura e Peso</h3>
+            <div class="row">
+                <p>Altura (em cm)</p>
+                <input type="text" autocomplete="off" id="height" class="input-decor" required>
+                <p>Peso (em kg)</p>
+                <input type="text" autocomplete="off" id="peso" class="input-decor" required>
+            </div>
+            <div class="row">
+                <button type="button" id="enviar">Calcular</button>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>

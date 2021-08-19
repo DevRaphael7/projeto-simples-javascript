@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(86, 89, 90), rgb(54, 55, 55), rgb(86, 89, 90));
+}
+section{
+    background-color: rgba(27, 19, 24, 80%);
+    border: 1px solid #1b8eff;
+    margin: 60px;
+    color: #fff;
+    width: 55%;
+    border-radius: 15px;
+}
+section:hover{
+    transform: scale(1.2);
+    transition: 5ms;
+}
+h1, h3{
+    text-align: center;
+    margin: 10px
+}
+p{
+    margin: 10px;
+    padding-right: 10px;
+}
+.input-decor{
+    width: 160px;
+    border-radius: 10px;
+    border: none;
+    outline: none;/*Isso tira a borda azul quando tocamos no campo de texto */
+    padding: 5px 5px;
+    cursor: pointer;
+}
+.row{
+    height: auto;
+    display: flex;
+    padding-left: 10px;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#enviar{
+    border: none;
+    background-color: rgba(27, 19, 24, 80%);
+    border: 1px solid #1b8eff;
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#enviar:hover{
+    background-color: #1b8eff;
+}
